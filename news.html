@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - JobVista</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <h1>JobVista</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="jobs.html">Search Jobs</a></li>
+            <li><a href="news.html" class="active">News</a></li>
+            <li><a href="login.html" class="btn-signin">Sign In</a></li>
+            <li><a href="signin.html" class="btn-signup">Sign Up</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="news-section">
+            <div class="news-header">
+                <h1>Industry News & Updates</h1>
+                <div class="news-search">
+                    <input type="text" placeholder="Search news articles...">
+                    <select class="news-filter">
+                        <option value="">All Categories</option>
+                        <option value="technology">Technology</option>
+                        <option value="business">Business</option>
+                        <option value="career">Career Advice</option>
+                        <option value="industry">Industry Trends</option>
+                    </select>
+                </div>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <img src="https://source.unsplash.com/random/800x600?technology" alt="Tech News">
+                    <div class="news-content">
+                        <span class="news-category">Technology</span>
+                        <h3>The Rise of Remote Work in Tech Industry</h3>
+                        <p>How technology companies are adapting to the new normal of remote work...</p>
+                        <div class="news-meta">
+                            <span><i class="far fa-calendar"></i> Mar 15, 2024</span>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="https://source.unsplash.com/random/800x600?business" alt="Business News">
+                    <div class="news-content">
+                        <span class="news-category">Business</span>
+                        <h3>Global Business Trends 2024</h3>
+                        <p>Key business trends shaping the future of work and employment...</p>
+                        <div class="news-meta">
+                            <span><i class="far fa-calendar"></i> Mar 14, 2024</span>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="https://source.unsplash.com/random/800x600?career" alt="Career News">
+                    <div class="news-content">
+                        <span class="news-category">Career Advice</span>
+                        <h3>Essential Skills for Future Jobs</h3>
+                        <p>Top skills that will be in high demand in the coming years...</p>
+                        <div class="news-meta">
+                            <span><i class="far fa-calendar"></i> Mar 13, 2024</span>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>JobVista</h3>
+                <p>Your gateway to career opportunities worldwide. Find the perfect job match with JobVista.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> contact@jobvista.com</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 JobVista. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
